@@ -894,9 +894,6 @@ body {
 
 
 .modal-polycy-text {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -915,6 +912,7 @@ body {
     min-width: 16px;
     height: 16px;
     border-radius: 2px;
+    display: inline-flex;
     fill: transparent;
     cursor: pointer;
     margin-right: 8px;
